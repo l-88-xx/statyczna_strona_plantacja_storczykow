@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/form.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/clock.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Plantacja Storczyków</h1>
+
+    <div class="header-right">
+        <div id="clock"></div>
+        <button id="theme-btn">🌙</button>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h2>Kontakt</h2>
+    <form id="contact-form">
+        <input type="text" id="email" placeholder="Adres e-mail" required>
+        <select id="temat">
+            <option value="">-- Wybierz temat --</option>
+            <option>Pytanie o storczyki</option>
+            <option>Zamówienie</option>
+            <option>Współpraca</option>
+        </select>
+        <textarea id="msg" rows="6" placeholder="Treść wiadomości" required></textarea>
+        <input type="submit" value="Wyślij">
+    </form>
+</main>
+
+<footer>
+    Projekt wykonała Lilianna Martyna
+</footer>
+
+</body>
+</html>
